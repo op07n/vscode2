@@ -1,4 +1,5 @@
 #!/bin/bash
 
 #export CODE_WORKINGDIR=${REPO_DIR}/examples
+export PATH="$HOME/.local/bin/dotnet:$PATH"
 exec "$@"
