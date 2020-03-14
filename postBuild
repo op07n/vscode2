@@ -36,4 +36,5 @@ export    DOTNET_TRY_CLI_TELEMETRY_OPTOUT=true
 # /home/jovyan/dotnet/dotnet help
 
 export PATH="$HOME/.local/bin/dotnet:$PATH"
+export DOTNET_ROOT="$HOME/.local/bin/dotnet"
 code-server --install-extension ms-vscode.csharp
