@@ -2,4 +2,5 @@
 
 #export CODE_WORKINGDIR=${REPO_DIR}/examples
 export PATH="$HOME/.local/bin/dotnet:$PATH"
+export DOTNET_ROOT="$HOME/.local/bin/dotnet"
 exec "$@"
